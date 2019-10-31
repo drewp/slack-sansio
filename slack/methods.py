@@ -215,6 +215,7 @@ class Methods(Enum):
     USERGROUPS_USERS_UPDATE = (ROOT_URL + "usergroups.users.update", None, None, True)
 
     # users
+    USERS_CONVERSATIONS = (ROOT_URL + "users.conversations", "cursor", "channels", False)
     USERS_DELETE_PHOTO = (ROOT_URL + "users.deletePhoto", None, None, False)
     USERS_GET_PRESENCE = (ROOT_URL + "users.getPresence", None, None, False)
     USERS_IDENTITY = (ROOT_URL + "users.identity", None, None, False)
